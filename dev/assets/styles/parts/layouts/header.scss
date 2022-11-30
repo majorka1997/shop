@@ -1,0 +1,56 @@
+.header {
+  background: $main-color;
+  max-height: 75px;
+  display: flex;
+  justify-content: space-between;
+
+  &__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  &__left, &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__left {
+    gap: 41px;
+  }
+
+  &__right {
+    gap: 33px;
+  }
+
+  &__logo {
+    display: flex;
+    width: 44px;
+    height: 38px;
+  }
+
+  &__search {
+    display: flex;
+    width: 26px;
+    height: 26px;
+  }
+
+  &__burger {
+    display: flex;
+    width: 32px;
+    height: 23px;
+  }
+
+  &__avatar {
+    display: flex;
+    width: 29px;
+    height: 29px;
+  }
+
+  &__cart {
+    display: flex;
+    width: 41px;
+    height: 37px;
+  }
+}
