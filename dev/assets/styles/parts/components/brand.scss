@@ -1,0 +1,19 @@
+.brand{
+    display: flex;
+    &__left{
+
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+    }
+    &__title{
+        display: flex;
+        border-left: 15px solid;
+        height: 80px;
+        padding-left: 18px;
+        align-items: center;
+        margin-left: 63px;
+    }
+}
+
