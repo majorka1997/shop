@@ -4,14 +4,15 @@
   display: flex;
   justify-content: space-between;
 
-  &__container{
+  &__container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
   }
 
-  &__left, &__right {
+  &__left,
+  &__right {
     display: flex;
     align-items: center;
   }

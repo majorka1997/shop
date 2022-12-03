@@ -1,0 +1,15 @@
+.choice {
+  margin-top: 65px;
+  &__top {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  &__bottom {
+    margin-top: 30px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+}
