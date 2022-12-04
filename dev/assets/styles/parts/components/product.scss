@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .product {
   margin-top: 96px;
   justify-content: center;
@@ -39,8 +44,10 @@
   line-height: 17px;
   color: #9f9f9f;
   margin-bottom: 48px;
+  margin-top: 6px;
 }
 .h3pr {
+  margin-top: 24px;
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -56,6 +63,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #5d5d5d;
+  margin-top: 12px;
 }
 .price {
   font-family: "Lato";
@@ -64,6 +72,7 @@
   font-size: 16px;
   line-height: 19px;
   color: #f16d7f;
+  margin-top: 18px;
 }
 .btn {
   display: block;
