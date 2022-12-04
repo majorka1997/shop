@@ -1,18 +1,46 @@
 .brand {
   display: flex;
   background-color: #f1e4e6;
-  &__left {
+  justify-content: center;
+
+  &__container{
+        display: flex;
+        @include adaptiv-value("height", 746, 363, 1);
   }
+
+  &__left, &__right {
+    width: 50%;
+  }
+
+  &__left {
+    position: relative;
+  }
+  &__img{
+    left: -180px;
+    position: absolute;
+    height: 100%;
+  }
+
   &__right {
     display: flex;
     align-items: center;
   }
+
   &__title {
+    position: relative;
     display: flex;
-    border-left: 15px solid;
-    height: 80px;
+    width: 100%;
     padding-left: 18px;
     align-items: center;
     margin-left: 63px;
+    padding-left: 28px;
+    &>span{
+        position: absolute;
+        display: block;
+        background-color: $color-2;
+        height: 100%;
+        width: 12px;
+        left: 0;
+    }
   }
 }

@@ -1,21 +1,40 @@
 .choice {
   margin-top: 65px;
+  &__container{
+    width: 100%;
+  }
   &__top {
     display: flex;
-    gap: 30px;
+    @include adaptiv-value("grid-gap", 30, 12, 1);
     justify-content: center;
   }
   &__bottom {
-    margin-top: 30px;
+    @include adaptiv-value("margin-top", 30, 12, 1);
+    .choice__item{
+      width: 100%;
+      @include adaptiv-value("height", 180, 116, 1)
+    }
   }
+  
   &__item {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    @include adaptiv-value("width", 360, 232, 1);
+    @include adaptiv-value("height", 260, 167, 1);
+
+    h1 {
+      color: $color-white;
+      text-align: center;
+    }
   }
-}
-.h1-16 {
-  position: absolute;
-  z-index: 1;
-  color: #ffffff;
+
+  &__img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: fill;
+  }
 }
