@@ -1,0 +1,81 @@
+.product {
+  margin-top: 96px;
+  justify-content: center;
+  &__discription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+  &__bottom {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+  &__item {
+    background-color: #f8f8f8;
+  }
+}
+.h2pr {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+}
+.ppr {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9f9f9f;
+  margin-bottom: 48px;
+}
+.h3pr {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}
+.catp {
+  max-width: 314px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+}
+.price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+  padding: 14px 38px 14px 38px;
+  border: 1px solid #ff6a6a;
+  background-color: white;
+}

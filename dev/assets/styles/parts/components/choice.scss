@@ -2,8 +2,8 @@
   margin-top: 65px;
   &__top {
     display: flex;
-    flex-direction: row;
     gap: 30px;
+    justify-content: center;
   }
   &__bottom {
     margin-top: 30px;
@@ -11,5 +11,11 @@
   &__item {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
+}
+.h1-16 {
+  position: absolute;
+  z-index: 1;
+  color: #ffffff;
 }
