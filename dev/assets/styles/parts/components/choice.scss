@@ -1,21 +1,22 @@
 .choice {
   margin-top: 65px;
-  &__container{
+  &__container {
     width: 100%;
   }
   &__top {
     display: flex;
+    flex-wrap: wrap;
     @include adaptiv-value("grid-gap", 30, 12, 1);
     justify-content: center;
   }
   &__bottom {
     @include adaptiv-value("margin-top", 30, 12, 1);
-    .choice__item{
+    .choice__item {
       width: 100%;
-      @include adaptiv-value("height", 180, 116, 1)
+      @include adaptiv-value("height", 180, 116, 1);
     }
   }
-  
+
   &__item {
     position: relative;
     display: flex;
@@ -30,7 +31,7 @@
     }
   }
 
-  &__img{
+  &__img {
     position: absolute;
     height: 100%;
     width: 100%;

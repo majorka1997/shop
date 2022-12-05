@@ -4,30 +4,31 @@
   box-sizing: border-box;
 }
 .product {
+  width: 100%;
   margin-top: 96px;
   justify-content: center;
+
   &__discription {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  &__top {
-    display: flex;
+
+  &__catalog {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 360px));
     flex-direction: row;
     justify-content: center;
     gap: 30px;
   }
-  &__bottom {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-  }
+
   &__item {
     background-color: #f8f8f8;
   }
 }
+
 .h2pr {
   font-family: "Lato";
   font-style: normal;
@@ -36,6 +37,7 @@
   line-height: 36px;
   color: #222222;
 }
+
 .ppr {
   font-family: "Lato";
   font-style: normal;
@@ -46,6 +48,7 @@
   margin-bottom: 48px;
   margin-top: 6px;
 }
+
 .h3pr {
   margin-top: 24px;
   font-family: "Lato";
@@ -55,6 +58,7 @@
   line-height: 16px;
   color: #000000;
 }
+
 .catp {
   max-width: 314px;
   font-family: "Lato";
@@ -65,6 +69,7 @@
   color: #5d5d5d;
   margin-top: 12px;
 }
+
 .price {
   font-family: "Lato";
   font-style: normal;
@@ -74,6 +79,7 @@
   color: #f16d7f;
   margin-top: 18px;
 }
+
 .btn {
   display: block;
   margin: 0 auto;

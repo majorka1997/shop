@@ -1,0 +1,14 @@
+.end {
+  margin-top: 95px;
+  width: 100%;
+  background-color: #222224;
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
