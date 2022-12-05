@@ -8,6 +8,10 @@
   margin-top: 96px;
   justify-content: center;
 
+  .btn {
+    margin-top: 48px;
+  }
+
   &__discription {
     display: flex;
     flex-direction: column;
@@ -22,6 +26,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+   
   }
 
   &__item {
@@ -80,17 +85,3 @@
   margin-top: 18px;
 }
 
-.btn {
-  display: block;
-  margin: 0 auto;
-  margin-top: 48px;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #f26376;
-  padding: 14px 38px 14px 38px;
-  border: 1px solid #ff6a6a;
-  background-color: white;
-}
