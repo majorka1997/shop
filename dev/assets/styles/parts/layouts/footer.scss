@@ -1,13 +1,18 @@
 .footer {
-
+  &__bootom {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #222224;
+  }
 }
 
 @keyframes rotating {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 // animation: rotating 10s linear infinite;
