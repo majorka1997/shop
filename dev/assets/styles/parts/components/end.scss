@@ -1,14 +1,46 @@
 .end {
   margin-top: 95px;
-  width: 100%;
   background-color: #222224;
+  width: 100%;
+  img {
+    width: 44px;
+    height: 34px;
+  }
+
   &__container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
+    gap: 30px;
   }
+
   &__item {
+    margin-top: 103px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
+}
+.h2__end {
+  margin-top: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.96px;
+  line-height: 24px;
+  color: #fbfbfb;
+}
+.p__end {
+  margin: 16px 0 104px 0;
+  width: 100%;
+  max-width: 360px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13.972px;
+  line-height: 17px;
+  text-align: center;
+  color: #fbfbfb;
 }
