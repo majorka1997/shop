@@ -1,57 +1,74 @@
-.cart{
-   
-    &__top{
-        position: relative;
-        overflow: hidden;
-        
-        &:hover{
-            cursor: pointer;
-            .cart__hover{
-                top: 0;
-            }
-        }
+.cart {
+  &__top {
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+      cursor: pointer;
+      .cart__hover {
+        top: 0;
+      }
     }
+  }
 
-    &__image, &__hover{
-        min-height: 420px;
-        max-width: 360px;
-        width: 100%;
-    }
+  &__image,
+  &__hover {
+    min-height: 420px;
+    max-width: 360px;
+    width: 100%;
+  }
 
-    &__image{
+  &__image {
+  }
 
-    }
+  &__hover {
+    position: absolute;
+    top: 420px;
+    z-index: 1213;
+    height: 420px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+  }
+  &__svg {
+    width: 26px;
+    height: 23px;
+  }
 
-    &__hover{
-        position: absolute;
-        top: 420px;
-        z-index: 1213;
-        height: 420px;
-        width: 360px;
-        display: flex;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.5);
-        transition: all 0.5s ease-in-out;
-    }
-    &__svg{
-        width: 26px;
-        height: 23px;
-    }
+  &__bottom {
+    padding: 25px 28px 20px 16px;
+  }
 
-    &__bottom{
-        padding: 25px 28px 20px 16px;
-    }
+  &__title {
+    margin-top: 24px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+  }
 
-    &__title{
+  &__description {
+    max-width: 314px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5d5d5d;
+    margin-top: 12px;
+  }
 
-    }
-
-    &__description{
-
-    }
-
-    &__price{
-
-    }
-    
+  &__price {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+    margin-top: 18px;
+  }
 }

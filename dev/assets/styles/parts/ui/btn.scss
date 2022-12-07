@@ -1,27 +1,30 @@
-.btn{
-    display: block;
-    margin: 0 auto;    
-    color: #f26376;
-    padding: 14px 38px 14px 38px;
-    border: 1px solid #ff6a6a;
-    background-color: white;
-    cursor: pointer;
+.btn {
+  display: block;
+  margin: 0 auto;
+  color: #f26376;
+  padding: 14px 38px 14px 38px;
+  border: 1px solid #ff6a6a;
+  background-color: white;
+  cursor: pointer;
+  &:hover {
+    background-color: #ff6a6a;
+    color: white;
+  }
 
-    &__add {
-        width: 139px;
-        height: 49px;
-        display: flex;
-        padding: 11px 13px 8px 13px;
-        gap: 11px;
-        justify-content: space-between;
-        align-items: center;
-        border-color: #ffffff;
-        margin: 0 auto;
-        background-color: inherit;
-        &:hover{
-            border-color: $color-2;
-            box-shadow: rgb(247 9 9 / 52%) 0px 5px 15px;
-        }
+  &__add {
+    width: 139px;
+    height: 49px;
+    display: flex;
+    padding: 11px 13px 8px 13px;
+    gap: 11px;
+    justify-content: space-between;
+    align-items: center;
+    border-color: #ffffff;
+    margin: 0 auto;
+    background-color: inherit;
+    &:hover {
+      border-color: $color-2;
+      box-shadow: rgb(247 9 9 / 52%) 0px 5px 15px;
     }
+  }
 }
-
