@@ -1,7 +1,6 @@
 .footer {
-  &__container {
-    background: url("../../../static/images/footer/back.png");
-  }
+  background-image: url("../static/images/footer/back.png");
+  background-size: cover;
 
   &__top {
     display: flex;
@@ -28,7 +27,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    padding-right: 79px;
+    padding-right: 95px;
     background-color: #e1e1e1;
     border: none;
     border-radius: 20px;
