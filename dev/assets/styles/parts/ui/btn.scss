@@ -28,3 +28,17 @@
     }
   }
 }
+.filtrbtn {
+  background-color: $color-white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: $color-1;
+
+  &:hover,
+  :focus {
+    background-color: $color-white;
+    color: $color-6;
+  }
+}
