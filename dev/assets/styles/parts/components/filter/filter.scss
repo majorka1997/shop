@@ -1,0 +1,126 @@
+.filter{
+    position: relative;
+    display: block;
+    z-index: 3;
+
+    &__details{
+        max-width: 360px;
+        width: 100%;
+        padding: 13px 15.5px 16px 17px;       
+    }
+
+    details[open]{
+        position: absolute;
+        top: 0;
+        background-color: $color-white;
+        box-shadow: 6px 4px 35px rgb(0 0 0 / 21%);
+        z-index: 645;
+        .filter__title{
+            color: $color-6;
+        }
+        .filter__icon-svg{
+            fill: $color-6;
+        }
+    }
+
+    &__summery{
+        display: flex;
+        width: 70px;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    &__title{
+
+    }
+
+    &__icon{
+        display: flex;    
+        width: 15px;
+        height: 10px;
+    }
+
+    &__lists{
+        margin-top: 16px;
+    }
+
+    &__list{
+        &:not(:first-child){
+            margin-top: 18px;
+        }
+    }
+
+    &__category{
+
+    }
+}
+
+
+
+.category{
+   
+    &__link{
+      
+    }
+
+    &__lists{
+    
+    }
+
+    &__list{
+
+    }
+}
+
+.blaze{
+   
+    &__lists{
+       
+    }
+    &__link{
+        
+    }
+}
+
+.designer{
+    &__lists{
+        
+    }
+    &__link{
+        
+    }
+}
+
+.category__link, .blaze__link, .designer__link{
+    text-decoration: none;
+}
+
+.category__lists, .blaze__lists, .designer__lists{
+    display: none;
+    padding-top: 24px;
+    padding-left: 16px;
+}
+
+.category, .blaze, .designer{
+   &:hover{
+    .category__lists, .blaze__lists, .designer__lists{
+        display: block;
+    }
+   }
+}
+
+.category__list, .blaze__list, .designer__list{
+    margin-bottom: 11px;
+    cursor: pointer
+}
+
+.filter__category, .filter__blaze, .filter__designer{
+    min-height: 37px;
+    display: block;
+    border-left: 5px solid $color-6;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    padding-top: 10px;
+    border-bottom: 1px solid $color-7;
+}

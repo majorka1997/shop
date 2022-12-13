@@ -1,17 +1,34 @@
 <section class="arrivals">
-  <div class="arrivals__filters"></div>
-  <div class="arrivals__products">
-    <div class="product__catalog">
-      <div class="product__item">@include('../components/cart.html')</div>
-      <div class="product__item">@include('../components/cart.html')</div>
-      <div class="product__item">@include('../components/cart.html')</div>
-      <div class="product__item">@include('../components/cart.html')</div>
-      <div class="product__item">@include('../components/cart.html')</div>
-      <div class="product__item">@include('../components/cart.html')</div>
-      <div class="product__item">@include('../components/cart.html')</div>
-      <div class="product__item">@include('../components/cart.html')</div>
-      <div class="product__item">@include('../components/cart.html')</div>
+  <div class="arrivals__container max-width-content">
+    <div class="arrivals__filters">
+      <div class="arrivals__filter">
+        @include('./filter/filter.html')
+      </div>
+      <div class="arrivals__sorts">
+        <div class="arrival__trading">
+          <!-- @include('') -->
+        </div>
+        <div class="arrival__size">
+          <!-- @include('') -->
+        </div>
+        <div class="arrival__price">
+          <!-- @include('') -->
+        </div>
+      </div>
     </div>
+    <div class="arrivals__products">
+      <div class="product__catalog">
+        <div class="product__item">@include('../components/cart.html')</div>
+        <div class="product__item">@include('../components/cart.html')</div>
+        <div class="product__item">@include('../components/cart.html')</div>
+        <div class="product__item">@include('../components/cart.html')</div>
+        <div class="product__item">@include('../components/cart.html')</div>
+        <div class="product__item">@include('../components/cart.html')</div>
+        <div class="product__item">@include('../components/cart.html')</div>
+        <div class="product__item">@include('../components/cart.html')</div>
+        <div class="product__item">@include('../components/cart.html')</div>
+      </div>
+    </div>
+    <div class="arrivals__enum"></div>
   </div>
-  <div class="arrivals__enum"></div>
 </section>

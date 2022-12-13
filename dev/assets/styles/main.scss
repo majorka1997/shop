@@ -19,6 +19,16 @@ body {
     width: 100%;
 }
 
+summary::marker {
+    content: "";
+}
+
+ol, ul, li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
 
 
 // .wrapper-page {
